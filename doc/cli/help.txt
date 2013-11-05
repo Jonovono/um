@@ -1,0 +1,9 @@
+Usage: ana [commands] <file>
+
+Description:
+  UNE: Do more in the terminal.
+
+Commands:
+  add
+  delete
+a

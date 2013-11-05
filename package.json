@@ -1,0 +1,39 @@
+{
+  "name": "um",
+  "author": "Jordan Howlett <jordan@howlett.io>",
+  "license": "MIT",
+  "version": "0.0.1",
+  "description": "Give your projects tags and comments for easy access (and much more).",
+  "main": "./lib/cli",
+  "bin": {
+      "um": "./bin/um"
+  },
+  "scripts": {
+    "test": "make test",
+    "postinstall": "make init"
+  },
+  "dependencies": {
+    "optimist": "0.6.0",
+    "nedb": "~0.8.9",
+    "winston": "~0.7.2",
+    "underscore": "~1.5.2",
+    "string": "~1.6.0",
+    "colors": "~0.6.2",
+    "update-notifier": "~0.1.7",
+    "shelljs": "0.2.5",
+    "promptly": "~0.2.0"
+  },
+  "keywords": [
+    "tags",
+    "comments",
+    "productivity",
+    "module",
+    "npm",
+    "cli"
+  ],
+  "repository" : {
+      "type" : "git"
+    , "url" : "http://github.com/Jonovono/UNE.git"
+  }
+  , "homepage": "http://github.com/Jonovono/UNE"
+}
