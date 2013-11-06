@@ -1,12 +1,12 @@
 {
-  "name": "um",
+  "name": "umm",
   "author": "Jordan Howlett <jordan@howlett.io>",
   "license": "MIT",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Give your projects tags and comments for easy access (and much more).",
   "main": "./lib/cli",
   "bin": {
-      "um": "./bin/um"
+    "um": "./bin/um"
   },
   "scripts": {
     "test": "make test",
@@ -21,7 +21,8 @@
     "colors": "~0.6.2",
     "update-notifier": "~0.1.7",
     "shelljs": "0.2.5",
-    "promptly": "~0.2.0"
+    "promptly": "~0.2.0",
+    "mv": "~1.0.0"
   },
   "keywords": [
     "tags",
@@ -31,9 +32,9 @@
     "npm",
     "cli"
   ],
-  "repository" : {
-      "type" : "git"
-    , "url" : "http://github.com/Jonovono/UNE.git"
-  }
-  , "homepage": "http://github.com/Jonovono/UNE"
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/Jonovono/um.git"
+  },
+  "homepage": "http://github.com/Jonovono/um"
 }

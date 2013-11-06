@@ -10,7 +10,7 @@ init:
 	@echo "Creating the data repos"
 	@echo "~um will store your projects that you source and create a nifty view."
 	mkdir ~/um
-	mkdir ~/une/um
+	mkdir ~/um/sources
 	@echo "A data file will be created in the npm module directory to store the database."
 	mkdir ./data
 

@@ -12,3 +12,4 @@ data/
 *.vi
 *~
 .DS_Store
+sampledir/*
