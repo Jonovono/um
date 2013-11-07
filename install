@@ -1,0 +1,44 @@
+#!/bin/bash
+
+UM_DIR=~/um
+SOURCES_DIR=$UM_DIR/sources
+SH_DIR=$UM_DIR/.sh
+
+INTO_FILE=$SH_DIR/into.sh
+UM_SH_FILE=$SH_DIR/um.sh
+
+makeDirIfNonExistant() {
+	echo $1
+	if [ ! -d "$1" ]; then
+		echo "Not exist"
+		mkdir $1
+	fi
+}
+
+
+echo "                  UM installed                  "
+echo "Going to be running a post installation script  "
+echo "................................................"
+echo
+echo "            Creating the main UM file           "
+echo "   Here will store all the files you add to UM  "
+echo "          As well as some shell scripts         "
+
+
+makeDirIfNonExistant $UM_DIR
+makeDirIfNonExistant $SOURCES_DIR
+makeDirIfNonExistant $SH_DIR
+
+echo " Create a data directory in the NPM dir for DBs "
+makeDirIfNonExistant data
+
+touch $INTO_FILE
+chmod +x $INTO_FILE
+mv doc/um.sh ~/um/.sh/um.sh
+
+echo
+echo
+echo "Awesome! You must now add the following .bash_profile, .zprofile, .zshrc, etc:"
+echo "                          source ~/um/.sh/um.sh                              "
+echo
+echo
