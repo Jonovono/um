@@ -5,7 +5,8 @@ var config = {
   tag_db:         'tag.db',
   home_path:      getUserHome(),
   um_path:        getUserHome() + '/um',
-  sources_path:   getUserHome() + '/um' + '/sources'
+  sources_path:   getUserHome() + '/um' + '/sources',
+  into_path:      getUserHome() + '/um' + '/.sh' + '/into.sh'
 };
 
 function getUserHome() {
