@@ -6,4 +6,7 @@ Description:
 Commands:
   add
   delete
-a
+  int
+  files
+  tags
+  comments
