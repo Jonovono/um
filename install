@@ -38,7 +38,7 @@ mv doc/um.sh ~/um/.sh/um.sh
 
 echo
 echo
-echo "Awesome! You must now add the following .bash_profile, .zprofile, .zshrc, etc:"
+echo "Awesome! You must now add the following to your .bash_profile, .zprofile, .zshrc, etc:"
 echo "                          source ~/um/.sh/um.sh                              "
 echo
 echo
