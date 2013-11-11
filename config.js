@@ -8,7 +8,8 @@ var config = {
   home_path:      path.join(getUserHome()),
   um_path:        path.join(getUserHome(), 'um'),
   sources_path:   path.join(getUserHome(), 'um', 'sources'),
-  into_path:      path.join(getUserHome(), 'um', '.sh', 'into.sh')
+  into_path:      path.join(getUserHome(), 'um', '.sh', 'into.sh'),
+  last_response:  path.join(__dirname, 'data', 'lastresponse.json')
 };
 
 function getUserHome() {
