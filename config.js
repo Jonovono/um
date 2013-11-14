@@ -9,7 +9,9 @@ var config = {
   um_path:        path.join(getUserHome(), 'um'),
   sources_path:   path.join(getUserHome(), 'um', 'sources'),
   into_path:      path.join(getUserHome(), 'um', '.sh', 'into.sh'),
-  last_response:  path.join(__dirname, 'data', 'lastresponse.json')
+  last_response:  path.join(__dirname, 'data', 'lastresponse.json'),
+
+  as_new_tab:     path.join(__dirname, 'doc', 'applescript', 'new-terminal-tab.applescript')
 };
 
 function getUserHome() {

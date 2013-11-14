@@ -21,7 +21,8 @@
     "colors": "~0.6.2",
     "update-notifier": "~0.1.7",
     "shelljs": "0.2.5",
-    "promptly": "~0.2.0"
+    "promptly": "~0.2.0",
+    "applescript": "~0.2.1"
   },
   "keywords": [
     "tags",
