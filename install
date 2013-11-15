@@ -2,15 +2,15 @@
 
 UM_DIR=~/um
 SOURCES_DIR=$UM_DIR/sources
-SH_DIR=$UM_DIR/.sh
 
-INTO_FILE=$SH_DIR/into.sh
-UM_SH_FILE=$SH_DIR/um.sh
+DATA_DIR=$UM_DIR/.data
+
+INTO_FILE=$DATA_DIR/into.sh
+UM_SH_FILE=$DATA_DIR/um.sh
 
 makeDirIfNonExistant() {
-	echo $1
+	echo 'Creating if not already exists: ' $1
 	if [ ! -d "$1" ]; then
-		echo "Not exist"
 		mkdir $1
 	fi
 }
@@ -27,14 +27,11 @@ echo "          As well as some shell scripts         "
 
 makeDirIfNonExistant $UM_DIR
 makeDirIfNonExistant $SOURCES_DIR
-makeDirIfNonExistant $SH_DIR
-
-echo " Create a data directory in the NPM dir for DBs "
-makeDirIfNonExistant data
+makeDirIfNonExistant $DATA_DIR
 
 touch $INTO_FILE
 chmod +x $INTO_FILE
-mv doc/um.sh ~/um/.sh/um.sh
+mv doc/um.sh ~/um/.data/um.sh
 
 echo
 echo
