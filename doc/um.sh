@@ -14,4 +14,3 @@ if [ "$BASH_SOURCE" != "$0" ]; then
 else 
 	um $@
 fi
-
