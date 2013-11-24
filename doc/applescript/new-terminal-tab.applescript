@@ -8,9 +8,7 @@ set g to "cd " & p & "; clear; pwd"
 	    tell the current terminal
 	        activate current session
 	        launch session "Default Session"
-	        tell the last session
-				write text g
-	        end tell
+	        tell the last session to write text g
 	    end tell
 	end tell
 end run
