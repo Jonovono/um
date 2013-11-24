@@ -11,7 +11,7 @@ var config = {
   into_path:      path.join(getUserHome(), 'um', '.data', 'into.sh'),
   last_response:  path.join(__dirname, 'data', 'lastresponse.json'),
 
-  as_new_tab:     path.join(__dirname, 'doc', 'applescript', 'new-terminal-tab.applescript')
+  as_new_tab:     path.join(__dirname, 'doc', 'applescript', 'new-terminal-tabs')
 };
 
 function getUserHome() {
