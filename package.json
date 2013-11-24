@@ -21,7 +21,18 @@
     "update-notifier": "~0.1.7",
     "shelljs": "0.2.5",
     "applescript": "~0.2.1",
-    "tabtab": "https://github.com/Jonovono/node-tabtab/tarball/master"
+    "tabtab": "https://github.com/Jonovono/node-tabtab/tarball/master",
+    "open": "0.0.4"
+  },
+  "devDependencies": {
+    "shelljs": "~0.1.4",
+    "grunt": "~0.4.1",
+    "grunt-contrib-jshint": "~0.6.0",
+    "grunt-contrib-watch": "~0.4.4",
+    "mocha": "~1.13.0",
+    "expect.js": "~0.2.0",
+    "sinon": "~1.7.3",
+    "grunt-simple-mocha": "~0.4.0"
   },
   "keywords": [
     "tags",
