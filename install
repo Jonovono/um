@@ -31,11 +31,10 @@ makeDirIfNonExistant $DATA_DIR
 
 touch $INTO_FILE
 chmod +x $INTO_FILE
-mv doc/um.sh ~/um/.data/um.sh
 
 echo
 echo
 echo "Awesome! You must now add the following to your .bash_profile, .zprofile, .zshrc, etc:"
-echo "                          source ~/um/.sh/um.sh                              "
+echo "                          . <(umm completion)                                     "
 echo
 echo
