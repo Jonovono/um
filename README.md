@@ -4,21 +4,24 @@ Awhile ago I created a project that I called c that allowed you to add comments 
 
 After that I put together a pretty scrubbed together version that allowed me to add tags as well, and was more clean. This project is the result of cleaning that up. I figured it was a good time now because with the new Mavericks release enabling tagging, I am not sure how/if I want to somehow have them work together. So that the tags from UM also create tags on the Mac. I don't currenty have a way to transfer your tags from c to UM.
 
-
+** WHEN YOU ADD PROJECTS WITH UM IT MOVES THE DIRECTORY **
 
 ## About
 
 So UM is what I use to `be more productive in the terminal`. I have a bunch more features I want to add to it, but right now it's mainly a way to organize your code on your system by giving projects comments or tags. You can then easily:
 
 * See all files with certain tags
-* See a files tags + comments
-* Add tags/comments to projects
+* See a files tags + comments + url + author
+* Add tags/comments (and a url/author) to projects
 * cd into or open the project
 * Merge tags together
+* Open the project in Sublime Text (default editor later).
 
 ### Why UM?
 
 Went through a few name changes, but settled on this for no particular reason besides liking it the most and semi-connected: When in the terminal you may think `UM I want that file I was working on last week that was a simple music site, where did I store it!?!?` UM helps refresh your memory.
+
+### Why did I make UM?
 
 ## A WORD OF CAUTION
 UM is pretty `forceful`. Before using you may want to try it out on files that their location does not matter. It's currently made specifically for me, but I thought others may find it useful. **BUT BEFORE USING PLEASE READ:**
