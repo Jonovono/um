@@ -8,7 +8,6 @@ tell application "iTerm"
         activate current session
         launch session "Default Session"
         tell the last session
-        	write text "$@"
             write text "cd \"$dir\""
         end tell
     end tell
