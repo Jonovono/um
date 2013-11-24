@@ -1,12 +1,21 @@
-Usage: ana [commands] <file>
+Usage: UM [commands] [options...] [<file>...]
 
 Description:
-  UNE: Do more in the terminal.
+  UM: Do more in the terminal.
 
 Commands:
-  add
-  delete
-  int
-  files
-  tags
-  comments
+  add             ->    Add tags, files, comments
+  delete          ->    Delete tags, files, comments
+  merge           ->    Merge multiple tags into one
+  replace         ->    Replace comment for a file
+
+  into            ->    cd's into a folder, or tags directory
+  files           ->    Lists all files added by UM
+  tags            ->    Shows all tags added by UM
+  comments        ->    Shows all files with comments
+
+Options:
+  -t              ->    Tag
+  -c              ->    Comment
+  -u              ->    URL
+  -a              ->    Author
