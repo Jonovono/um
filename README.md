@@ -20,8 +20,6 @@ So UM is what I use to `be more productive in the terminal`. I have a bunch more
 
 Went through a few name changes, but settled on this for no particular reason besides liking it the most and semi-connected: When in the terminal you may think `UM I want that file I was working on last week that was a simple music site, where did I store it!?!?` UM helps refresh your memory.
 
-
-
 ## A WORD OF CAUTION
 UM is pretty `forceful`. Before using you may want to try it out on files that their location does not matter. It's currently made specifically for me, but I thought others may find it useful. **BUT BEFORE USING PLEASE READ:**
 
@@ -49,7 +47,6 @@ Some things I want to add in the next coming while are:
 * A `HISTORY` command. 
 * A `UNDO` command to easily undo things you just did.
 * An `ALIAS` command, *maybe*, to give command files/folders an easy name to remember. Or basically a way to, when you add a file to the system, be able to give it an alternate name.
-* An `OPEN` command, to automatically open the project in your text editor of choice
 * Longer comments. Have the ability to display the README.md if no comment is there, and also open a text editor to edit a longer form of a comment.
 * A `FORMULA` command. This will be cool! Allow the ability to define common 'formulas'. So for example, I'd open a text file and make a formula like:
 
