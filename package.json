@@ -22,7 +22,8 @@
     "shelljs": "0.2.5",
     "applescript": "~0.2.1",
     "tabtab": "https://github.com/Jonovono/node-tabtab/tarball/master",
-    "open": "0.0.4"
+    "open": "0.0.4",
+    "cliff": "~0.1.8"
   },
   "devDependencies": {
     "shelljs": "~0.1.4",
