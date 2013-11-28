@@ -2,7 +2,7 @@
   "name": "umm",
   "author": "Jordan Howlett <jordan@howlett.io>",
   "license": "MIT",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Give your projects tags and comments for easy access (and much more).",
   "main": "./lib/cli",
   "bin": {
