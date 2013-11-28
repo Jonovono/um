@@ -1,0 +1,8 @@
+Command: `INTO`
+
+Usage: um into <file> [<more>..]
+
+
+ Examples:
+ 	um into .             // Goes into the main UM directory
+  um into f1 f2 f3      // Opens up these three sourced projects in new tabs in iTerm

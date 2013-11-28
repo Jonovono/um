@@ -1,4 +1,4 @@
-Usage: UM [commands] [options...] [<file>...]
+Usage: UM [command] [options...] [<file>...]
 
 Description:
   UM: Do more in the terminal.
@@ -8,8 +8,10 @@ Commands:
   delete          ->    Delete tags, files, comments
   merge           ->    Merge multiple tags into one
   replace         ->    Replace comment for a file
+  update          ->    For updating a projects tags, comment, etc
 
-  into            ->    cd's into a folder, or tags directory
+  into            ->    cd's into a folder
+  open            ->    opens the project in Sublime
   files           ->    Lists all files added by UM
   tags            ->    Shows all tags added by UM
   comments        ->    Shows all files with comments

@@ -1,7 +1,16 @@
-test
-atoheuao
-eu
-ao
-eu
-oa
-eu
+Command: `DELETE`
+
+Usage: um delete [options] [<file>]
+
+
+Options:
+  -t        ->      Specify a tag to remove it from project
+  -c        ->      BOOL. if present removes comment
+  -u        ->      BOOL if present removes url
+  -a        ->      BOOL. if present removes author
+
+
+ Examples:
+  um delete f1              // Removes the file from the database
+  um delete f1 -t t1        // Untag tag t1 from project f1
+  um delete f1 -c -u -a     // Removes the comment, url, author from project f1

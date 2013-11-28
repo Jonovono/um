@@ -1,4 +1,7 @@
-tahoeu
-oaeu
-oa
-eu
+Command: `OPEN`
+
+Usage: um open <file> [<more>..]
+
+ Examples:
+ 	um open f1 f2  			// Opens sourced projects in Sublime
+ 	um open -t t1			// Opens tag directory in Finder

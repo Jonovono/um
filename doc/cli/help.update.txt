@@ -1,6 +1,6 @@
-satoehuao
-eu
-aoe
-u
-oae
-u
+Command: `UPDATE`
+
+Usage: um update [options] <file>
+
+    Same usage as `ADD` but a file is required to update. Just does not show the same messages.
+    

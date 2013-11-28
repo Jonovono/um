@@ -1,8 +1,16 @@
-Usage: ana add [commands] <file>
+Command: `ADD`
 
-Description:
-  UNE: Do more in the terminal.
+Usage: um add [options] [<file>]
 
-Commands:
-  add
-  delete
+
+Options:
+  -t        ->     specify tag
+  -c        ->     specify comment
+  -u        ->     specify url
+  -a        ->     specify author
+
+ Examples:
+  um add file1 -t tag1 -t tag2 -c "some awesome comment" -u test.com -a me
+  um add -t will-just-create-a-tag
+  um add only-add-a-file
+  um add f1 f2 f3

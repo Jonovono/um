@@ -1,5 +1,11 @@
-MERGE
-aoe
-u
-aoe
-u
+Command: `MERGE`
+
+    Will essentially rename all the tags after the first listed
+    tag into the first one. So all files tagged with ones tagged
+    from the 'from tags' will now be tagged with the 'into tag'
+
+Usage: um merge <into-tag> <from-tag> [from-more...] 
+
+
+ Examples:
+  um merge t1 t2 t3 t4   // This will rename t2,t3,t4 to t1. 

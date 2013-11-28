@@ -1,6 +1,9 @@
-REPLACE
-oeu
-ao
-eu
-ao
-eu
+Command: `REPLACE`
+
+    Replace a files current comment with one passed in.
+
+Usage: um replace <file> <comment>
+
+
+ Examples:
+  um f1 "some awesome new comment"
