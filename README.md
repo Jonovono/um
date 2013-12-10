@@ -75,3 +75,6 @@ Then I can run `um formula formulaname`, and it will execute these commands and 
 #### You may have to:
 
 alias um='nocorrect um'
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Jonovono/um/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
