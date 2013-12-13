@@ -20,10 +20,10 @@
     "colors": "~0.6.2",
     "update-notifier": "~0.1.7",
     "shelljs": "0.2.5",
-    "applescript": "~0.2.1",
     "tabtab": "https://github.com/Jonovono/node-tabtab/tarball/master",
     "open": "0.0.4",
-    "cliff": "~0.1.8"
+    "cliff": "~0.1.8",
+    "adm-zip": "~0.4.3"
   },
   "devDependencies": {
     "shelljs": "~0.1.4",
@@ -41,7 +41,9 @@
     "productivity",
     "module",
     "npm",
-    "cli"
+    "cli",
+    "um",
+    "umm"
   ],
   "repository": {
     "type": "git",
