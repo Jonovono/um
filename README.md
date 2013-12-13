@@ -4,7 +4,7 @@ Awhile ago I created a project that I called c that allowed you to add comments 
 
 After that I put together a pretty scrubbed together version that allowed me to add tags as well, and was more clean. This project is the result of cleaning that up. I figured it was a good time now because with the new Mavericks release enabling tagging, I am not sure how/if I want to somehow have them work together. So that the tags from UM also create tags on the Mac. I don't currenty have a way to transfer your tags from c to UM.
 
-** WHEN YOU ADD PROJECTS WITH UM IT MOVES THE DIRECTORY **
+** WHEN YOU ADD PROJECTS WITH UM IT MOVES THE DIRECTORY. Also, some functions will only work on a mac**
 
 ## About
 
@@ -22,6 +22,8 @@ So UM is what I use to `be more productive in the terminal`. I have a bunch more
 Went through a few name changes, but settled on this for no particular reason besides liking it the most and semi-connected: When in the terminal you may think `UM I want that file I was working on last week that was a simple music site, where did I store it!?!?` UM helps refresh your memory.
 
 ### Why did I make UM?
+I wanted a better way to organize my code projects on my computer. The current way I do things is I have a bunch of folders in a folder called "Code". I wanted a way I would not have to worry about what folder to put them in, instead all of the projects would be in one folder and from there I could tag them, give them comments, etc. Sometimes I forget what a certain project does, so giving it a comment is helpful.
+
 
 ## A WORD OF CAUTION
 UM is pretty `forceful`. Before using you may want to try it out on files that their location does not matter. It's currently made specifically for me, but I thought others may find it useful. **BUT BEFORE USING PLEASE READ:**
@@ -35,12 +37,13 @@ If these are not things you'd like, or you like the idea of the project but woul
 
 ## Installation
 
+	npm install -g umm (yes two m's)
 
-## Extra Features
+	# Then to get autocomplete and CDing working simply add:
+	. <(umm completion)
+	# To your .bashrc (or any of those files)
 
-### CDing around
 
-### Tab Autocompletion
 
 ## In the Future
 
@@ -51,6 +54,7 @@ Some things I want to add in the next coming while are:
 * A `UNDO` command to easily undo things you just did.
 * An `ALIAS` command, *maybe*, to give command files/folders an easy name to remember. Or basically a way to, when you add a file to the system, be able to give it an alternate name.
 * Longer comments. Have the ability to display the README.md if no comment is there, and also open a text editor to edit a longer form of a comment.
+* A `WORKSPACE` command. Quickly create folders that contain certain files/projects in the database, and save them for later, or use as a temporary scratch pad.
 * A `FORMULA` command. This will be cool! Allow the ability to define common 'formulas'. So for example, I'd open a text file and make a formula like:
 
 ```
