@@ -1,0 +1,13 @@
+Command: `delete workspace`
+
+	Deletes a workspace from the database or removes tabs/files from the workspace
+
+Usage: UM delete tag <workspace> [-f file -t tag -d]
+
+Options:
+
+	-f 			->	Specify a file to remove from workspace
+	-t 			->  Specify a tag to remove from workspace
+	-d 			-> 	BOOL, removes the description
+
+If no options given, the entire workspace will be removed.

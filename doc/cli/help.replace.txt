@@ -1,9 +1,9 @@
 Command: `REPLACE`
 
-    Replace a files current comment with one passed in.
+  Replace a files current comment with one passed in.
 
 Usage: um replace <file> <comment>
 
 
- Examples:
+Examples:
   um f1 "some awesome new comment"

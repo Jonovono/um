@@ -1,0 +1,17 @@
+Command: `add workspace`
+
+  Add a workspace to the database (while optionally telling it what files/tags to bring in)
+
+Usage: UM add workspace <workspace>  [-f file1 -f file2 -t tag]
+	
+  * Files/tags must be in database
+
+Options:
+
+  -f        -> will hardlink/symlink the file/folder to this directory
+  -t        -> will do above for each object with those tags. So it could change over time.
+
+Examples:
+
+  um add workspace temp
+  um add workspace temp -f webpage-template -t scripts

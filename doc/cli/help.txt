@@ -10,14 +10,17 @@ Commands:
   replace         ->    Replace comment for a file
   update          ->    For updating a projects tags, comment, etc
 
-  into            ->    cd's into a folder
-  open            ->    opens the project in Sublime
+  into            ->    cd's into a folder, tag directory or workspace
+  open            ->    Opens the project in Sublime
   files           ->    Lists all files added by UM
   tags            ->    Shows all tags added by UM
   comments        ->    Shows all files with comments
+  workspaces      ->    Shows all workspaces
 
-Options:
+Options: (some only used for certain commands)
   -t              ->    Tag
   -c              ->    Comment
   -u              ->    URL
   -a              ->    Author
+  -f              ->    File
+  -d              ->    Description

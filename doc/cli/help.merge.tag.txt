@@ -1,0 +1,11 @@
+Command: `merge tag`
+
+  Merges one or more tags into one that already exists (or creates it)
+
+Usage: UM merge tag <merge-into-tag> <from-tag> [<from-tag2>..]
+
+Options:
+
+Examples:
+
+  um merge tag new-tag old-tag (all projects tagged old-tag will now be tagged new-tag instead)

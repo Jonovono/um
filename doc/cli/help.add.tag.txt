@@ -1,0 +1,17 @@
+Command: `add tag`
+
+  Add a tag to the database (while optionally tagging files at the same time)
+
+Usage: UM add tag <tag> [<tag2>...] [-f file1 -f file2]
+	
+  * Files must be in database
+
+Options:
+
+  -f        -> file in database to tag with the given tag
+  -w        -> workspace in DB to add tag set to
+
+Examples:
+
+  um add tag work
+  um add tag work -f my-company-folder -f freelance-company-1 -w working-on

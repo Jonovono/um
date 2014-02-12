@@ -1,0 +1,5 @@
+Command: `delete tag`
+
+	Deletes a tag from the database. Will untag all the projects tagged with that.
+
+Usage: UM delete tag <tag> [<tag2>...]

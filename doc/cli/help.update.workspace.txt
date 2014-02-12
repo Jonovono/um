@@ -1,0 +1,13 @@
+Command: `update workspace`
+
+  Updates a workspaces description, tags, files
+
+Usage: UM update workspace <workspace> [-f file -t tag -d "some description yo"]
+
+Options:
+
+  -f    ->    Specify a file to add to the set
+  -t    ->    Specify a tag to add to the set
+  -d    ->    Specify a description to replace the current one
+
+If no options given, the entire workspace will be removed.
