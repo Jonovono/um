@@ -4,8 +4,10 @@ var config = {
   // Databases for the files and tags
   file_db_test:   'filetest.db',
   tag_db_test:    'tagtest.db',
+  workspace_db_test: 'workspacetest.db',
   file_db:        'file.db',
   tag_db:         'tag.db',
+  workspace_db:   'workspace.db',
   home_path:      path.join(getUserHome()),
 
   // Main UM directory
@@ -14,6 +16,9 @@ var config = {
   // Directory that stores EVERY project/file added to UM
   // When you add a file it gets MOVED to this place.
   sources_path:   path.join(getUserHome(), 'um', 'sources'),
+
+  // Holds the workspaces
+  workspaces_path: path.join(getUserHome(), 'um', 'workspaces'),
 
   // File that enables CDing into a project in the current shell
   into_path:      path.join(getUserHome(), 'um', '.data', 'into.sh'),
