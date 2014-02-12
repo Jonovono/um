@@ -74,6 +74,7 @@ Then I can run `um formula formulaname`, and it will execute these commands and 
 * Make it more efficient. I am sure it could be made to run quicker. Maybe when first starts get all the files/tags so it does not have to repeatedly look them up?
 * ADD TESTS!
 * Can you think of anything else that would be cool? Shoot me a message!
+* Rename command.
 
 
 #### You may have to:
