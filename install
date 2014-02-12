@@ -4,9 +4,9 @@ UM_DIR=~/um
 SOURCES_DIR=$UM_DIR/sources
 
 DATA_DIR=$UM_DIR/.data
+WORKSPACE_DIR=$UM_DIR/workspaces
 
 INTO_FILE=$DATA_DIR/into.sh
-UM_SH_FILE=$DATA_DIR/um.sh
 
 makeDirIfNonExistant() {
 	echo 'Creating if not already exists: ' $1
@@ -28,6 +28,7 @@ echo "          As well as some shell scripts         "
 makeDirIfNonExistant $UM_DIR
 makeDirIfNonExistant $SOURCES_DIR
 makeDirIfNonExistant $DATA_DIR
+makeDirIfNonExistant $WORKSPACE_DIR
 
 touch $INTO_FILE
 chmod +x $INTO_FILE
